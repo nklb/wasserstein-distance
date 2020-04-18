@@ -13,7 +13,7 @@ Here ![U_\text{cdf}](https://render.githubusercontent.com/render/math?math=U_%5C
 
 ![U_\text{icdf}(p) = \inf\{x: \, U_\text{cdf}(x) > p\}.](https://render.githubusercontent.com/render/math?math=U_%5Ctext%7Bicdf%7D(p)%20%3D%20%5Cinf%5C%7Bx%3A%20%5C%2C%20U_%5Ctext%7Bcdf%7D(x)%20%3E%20p%5C%7D.)
 
-The code assumes (unlike for instance the [bioconductor function](https://www.bioconductor.org/packages/devel/bioc/vignettes/waddR/inst/doc/wasserstein_metric.html)) that _u_ is a discrete and uniform probability distribution. In this situation there are samples ![u_1, u_2, \dots, u_N](https://render.githubusercontent.com/render/math?math=u_1%2C%20u_2%2C%20%5Cdots%2C%20u_N) (without loss of generality increasingly sorted) and the cumulative distribution function and its pseudo inverse are given by
+The code assumes (unlike for instance the [bioconductor function](https://www.bioconductor.org/packages/devel/bioc/vignettes/waddR/inst/doc/wasserstein_metric.html)) that _u_ is a discrete and uniform probability distribution. In this situation there are samples ![u_1, u_2, \dots, u_N](https://render.githubusercontent.com/render/math?math=u_1%2C%20u_2%2C%20%5Cdots%2C%20u_N) (without loss of generality increasingly sorted) and the cumulative distribution function and its pseudo inverse are given by the step functions
 
 ![U_\text{cdf}(x) = \frac{\max\{i: \, u_i \leq x\}}{N}, \quad U_\text{icdf}(p)=u_{\left \lfloor{p/N} \right \rfloor + 1}\,.](https://render.githubusercontent.com/render/math?math=U_%5Ctext%7Bcdf%7D(x)%20%3D%20%5Cfrac%7B%5Cmax%5C%7Bi%3A%20%5C%2C%20u_i%20%5Cleq%20x%5C%7D%7D%7BN%7D%2C%20%5Cquad%20U_%5Ctext%7Bicdf%7D(p)%3Du_%7B%5Cleft%20%5Clfloor%7Bp%2FN%7D%20%5Cright%20%5Crfloor%20%2B%201%7D%5C%2C.)
 
