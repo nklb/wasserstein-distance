@@ -20,6 +20,6 @@ The code assumes (unlike for instance the [bioconductor function](https://www.bi
 The code has been tested in Matlab R2017a and checked against the [scipy Wasserstein distance](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wasserstein_distance.html) (in case of the 1-Wasserstein distance) and the [earth mover distance code on Matlab Central File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/22962-the-earth-mover-s-distance). The latter code allows for computations of the general p-Wasserstein distance but is computationally more complex than the present code for the described situation.
 
 ### Some references
-Carrillo, J.A., und G. Toscani. „Wasserstein Metric and Large-Time Asymptotics of Nonlinear Diffusion Equations“. In New Trends in Mathematical Physics, 234–44. Naples, Italy: WORLD SCIENTIFIC, 2005. https://doi.org/10.1142/9789812702319_0022.
+Carrillo, J.A., and G. Toscani. „Wasserstein Metric and Large-Time Asymptotics of Nonlinear Diffusion Equations“. In New Trends in Mathematical Physics, 234–44. Naples, Italy: WORLD SCIENTIFIC, 2005. https://doi.org/10.1142/9789812702319_0022.
 
 Kantorovich, L. V. „On the Translocation of Masses“. Journal of Mathematical Sciences 133, Nr. 4 (März 2006): 1381–82. https://doi.org/10.1007/s10958-006-0049-2.
