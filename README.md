@@ -1,3 +1,5 @@
+[![View Wasserstein distance on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/75228-wasserstein-distance)
+
 # Wasserstein distance code for Matlab
 This is a compact Matlab code to compute the 1- and 2-Wasserstein distances for one dimensional probability distributions.
 
