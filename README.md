@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10912241.svg)](https://doi.org/10.5281/zenodo.10912241)
 [![View Wasserstein distance on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/75228-wasserstein-distance)
 
 # Wasserstein distance code for Matlab
